@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    /* ll */
+    height: 67px;
+    border: 0.4px solid rgba(128, 128, 128, 0.25);
+    padding: 14px;
+}
+
+h1{
+    /* display: inline; */
+    display: block;
+    font-size: 2em;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 7px;
+}
+.tabuleiro{
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 350px;
+    gap: 7px;
+    padding: 10px;
+    /* ll */
+    width: 90%;
+    align-items: center;
+    
+
+
+}
+
+.linha-tab{
+    display: flex;
+    width: 100%;
+    column-gap: 7px;
+    /* ll */
+
+}
+
+/* .linha-tab > */.quad{
+    width: 62px;
+    height: 62px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 62px;
+    border: 0.8px solid rgba(128, 128, 128, 0.443);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.teclado{
+    max-width: 600px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+    width: 97%;
+}
+
+.teclado .linha-tecla{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+
+    
+}
+
+.tecla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    min-width: 44px ;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.68em;
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+
+.tecla-del{
+    min-width: 50px;
+}
+
+.button-backspace{
+    object-fit:cover;
+    width: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+
+.insert-char-on{
+    border: 1.3px solid black;
+}
+
+
+
+
+/* PosClasse */
+.incorrect{
+    background-color : #787c7e;
+}
+
+.correct{
+    background-color: #c9b458;
+}
+
+
+.fullcorrect{
+    background-color: #6aaa64;
+}
+
+
+.fullcorrect, .correct, .incorrect{
+    color: #fff;
+    border: none;
+}

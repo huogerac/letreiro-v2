@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordle Clone - Busertech 2022</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <h1>Wordle</h1>
+    </nav>
+
+    <div class="tabuleiro">
+      <div class="linha-tab linha-tab1">
+        <div id="l1c1" class="quad"></div>
+        <div id="l1c2" class="quad"></div>
+        <div id="l1c3" class="quad"></div>
+        <div id="l1c4" class="quad"></div>
+        <div id="l1c5" class="quad"></div>
+      </div>
+      <div class="linha-tab linha-tab2">
+        <div id="l2c1" class="quad"></div>
+        <div id="l2c2" class="quad"></div>
+        <div id="l2c3" class="quad"></div>
+        <div id="l2c4" class="quad"></div>
+        <div id="l2c5" class="quad"></div>
+      </div>
+      <div class="linha-tab linha-tab3">
+        <div id="l3c1" class="quad"></div>
+        <div id="l3c2" class="quad"></div>
+        <div id="l3c3" class="quad"></div>
+        <div id="l3c4" class="quad"></div>
+        <div id="l3c5" class="quad"></div>
+      </div>
+      <div class="linha-tab linha-tab4">
+        <div id="l4c1" class="quad"></div>
+        <div id="l4c2" class="quad"></div>
+        <div id="l4c3" class="quad"></div>
+        <div id="l4c4" class="quad"></div>
+        <div id="l4c5" class="quad"></div>
+      </div>
+      <div class="linha-tab linha-tab5">
+        <div id="l5c1" class="quad"></div>
+        <div id="l5c2" class="quad"></div>
+        <div id="l5c3" class="quad"></div>
+        <div id="l5c4" class="quad"></div>
+        <div id="l5c5" class="quad"></div>
+      </div>
+      <div class="linha-tab linha-tab6">
+        <div id="l6c1" class="quad"></div>
+        <div id="l6c2" class="quad"></div>
+        <div id="l6c3" class="quad"></div>
+        <div id="l6c4" class="quad"></div>
+        <div id="l6c5" class="quad"></div>
+      </div>
+    </div>
+
+    <div class="teclado">
+      <div class="linha-tecla">
+        <button class="tecla">Q</button>
+        <button class="tecla">W</button>
+        <button class="tecla">E</button>
+        <button class="tecla">R</button>
+        <button class="tecla">T</button>
+        <button class="tecla">Y</button>
+        <button class="tecla">U</button>
+        <button class="tecla">I</button>
+        <button class="tecla">O</button>
+        <button class="tecla">P</button>
+      </div>
+      <div class="linha-tecla">
+        <button class="tecla">A</button>
+        <button class="tecla">S</button>
+        <button class="tecla">D</button>
+        <button class="tecla">F</button>
+        <button class="tecla">G</button>
+        <button class="tecla">H</button>
+        <button class="tecla">J</button>
+        <button class="tecla">K</button>
+        <button class="tecla">L</button>
+          
+      </div>
+      <div class="linha-tecla">
+        <button class="tecla q">ENTER</button>
+        <button class="tecla">Z</button>
+        <button class="tecla">X</button>
+        <button class="tecla">C</button>
+        <button class="tecla">V</button>
+        <button class="tecla">B</button>
+        <button class="tecla">N</button>
+        <button class="tecla">M</button>
+        <button class="tecla tecla-del"><img class="button-backspace" src="./image/icone-backspace.svg" alt=""></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script/wordle.js"></script>
+
+</body>
+</html>
